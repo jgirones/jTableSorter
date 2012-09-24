@@ -1,0 +1,11 @@
+table.jTableSorter{border-spacing:0;border-collapse:collapse;border:1px solid #d8d8d8;font-size:1em;width:96%;float:left;margin:1% 2%}
+table.jTableSorter th{cursor:pointer;font-size:1em;background-color:#efe;color:#666;text-align:center;border-right:1px solid #d8d8d8;padding:.4em .3em}
+table.jTableSorter td{font-size:.9em;color:#666;border-right:1px solid #d8d8d8;border-bottom:1px dashed #d8d8d8;padding:.3em .4em}
+table.jTableSorter tr:nth-child(even) td{background:#fff}
+table.jTableSorter tr:nth-child(odd) td{background:#fefefe}
+table.jTableSorter tr:hover td{background-color:#efe}
+table.jTableSorter thead tr th{border-bottom:1px solid #d8d8d8}
+table.jTableSorter div.jTableSorterArrows{float:right;margin-left:3px;width:16px;height:16px}
+table.jTableSorter span.jTableSorterArrow{background-image:url(img/arrows.png);width:16px;height:16px;float:left;display:block}
+table.jTableSorter span.jTableSorterArrowUp{background-position:0 0}
+table.jTableSorter span.jTableSorterArrowDown{background-position:-17px 0}
